@@ -3,8 +3,12 @@
     src: url("font/TheHistoriaDemo.ttf")
 }
 @font-face {
-    font-family: Yellow;
-    src: url("font/Hello.ttf")
+    font-family: Destacy;
+    src: url("font/Destacy.ttf")
+}
+@font-face {
+    font-family: Chalkier;
+    src: url("font/Chalkier.ttf")
 }
 /*Start global*/
 *{
@@ -215,8 +219,8 @@ li{
 }
 
 .landing-text h1 {
-    font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-size: 15rem;
+    font-family: 'Destacy', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -225,7 +229,8 @@ li{
 }
 
 .landing-text h6 {
-    font-size: 2rem;
+    font-family: 'Chalkier', sans-serif;;
+    font-size: 3rem;
     font-weight: 300;
 }
 /*End header*/
@@ -336,6 +341,9 @@ li{
 
 
 /*Start portfolio*/
+.container #containerPortfolio{
+    padding-top: 100px;
+}
 .portfolio-item{
     display: flex;
     align-items: center;
@@ -347,8 +355,7 @@ li{
     margin-bottom: 0;
 }
 
-.profile-img{
-    width: 50rem;
+.portfolio-img{
     flex: 1;
 }
 
@@ -605,63 +612,4 @@ input[type=submit]:hover{
     }
 }
 
- //* @media screen and (max-width: 600px) { 
-    .menu-toggler{
-        top: 2rem;
-        right: 2rem;
-    }
-
-    .landing-text h1{
-        font-size: 8rem;
-    }
-
-    .landing-text h6{
-        font-size: 1.4rem;
-    }
-
-    .nav-link{
-        font-size: 3.5rem;
-    }
-
-    .about .container{
-        flex-direction: column;
-    }
-
-    .profile-img{
-        margin: 0 0 7rem 0;
-    }
-
-    .portfolio-item{
-        flex-direction: column;
-    }
-
-    .portfolio-img{
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-
-    .portfolio-description{
-        margin: 0;
-        order: 2;
-    }
-
-    .timeline p{
-        font-size: 1.6;
-    }
-
-    .timeline .date::before{
-        font-size: 1.4rem;
-    }
-
-    form{
-        width: 100%;
-    }
-
-    .up{
-        right: 2rem;
-    }
-
-
-
-}
 /*End media queries*/
