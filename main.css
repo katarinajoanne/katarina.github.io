@@ -341,9 +341,6 @@ li{
 
 
 /*Start portfolio*/
-.container #containerPortfolio{
-    padding-top: 100px;
-}
 .portfolio-item{
     display: flex;
     align-items: center;
